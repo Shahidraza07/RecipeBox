@@ -1,0 +1,34 @@
+- [x] Phase 0: Project Setup
+- [x] Phase 1: Core Recipe CRUD & Cloudinary Pipeline
+- [x] Phase 1.5: User Authentication
+- [x] Phase 2: Discovery Engine
+- [x] Phase 3: Recipe Comments and Ratings
+- [x] Phase 3.5: Folder Management & Comment Deletion Fixes
+  - [x] Backend: Add/Remove recipe routes in cookbookRoutes.js
+  - [x] Backend: Fix authRoutes.js `/me` virtuals serialization
+  - [x] Frontend: Make comment deletion robust and mobile-friendly in RecipeDetail.jsx
+  - [x] Frontend: Add "Add to Folder" button & modal in RecipeDetail.jsx
+  - [x] Frontend: Make folder cards clickable & show recipes inside folder in Profile.jsx
+  - [x] Frontend: Add option to remove recipes from folders in Profile.jsx
+- [x] Phase 3.6: Authentication & Recipe Lifecycle Improvements
+  - [x] Backend: Create .env configuration file to prevent Cloudinary/JWT errors
+  - [x] Backend: Protect recipe creation route and associate author with logged-in user
+  - [x] Backend: Add DELETE recipe route with author validation and cookbook pulling
+  - [x] Frontend: Add Auth check and Authorization headers in CreateRecipe page
+  - [x] Frontend: Add Delete Recipe button and action in RecipeDetail page
+- [x] Phase 3.7: Authentication & Database Diagnostics
+  - [x] Backend: Add database connectivity check middleware in index.js
+  - [x] Backend: Support username or email login in authRoutes.js
+  - [x] Frontend: Expose detailed server error messages in Register.jsx
+  - [x] Frontend: Expose detailed server error messages in Login.jsx
+- [x] Phase 4: Social Persistence & Profile Feeds (Final Project Completion)
+  - [x] Backend: Add recipe like toggle endpoint (`POST /like`)
+  - [x] Backend: Add GET liked/my-recipes endpoints
+  - [x] Backend: Populate author fields in recipe controllers
+  - [x] Frontend: Show creator badge on RecipeCard and RecipeDetail pages
+  - [x] Frontend: Implement persisted like toggling with optimistic updates
+  - [x] Frontend: Implement Profile tabs (Folders, Creations, Favorites)
+  - [x] Frontend: Add quick delete creations & unlike favorites in Profile page
+  - [x] Assets: Generate premium rustic food backgrounds using AI
+  - [x] Design: Design split layout for Signup & Login pages with images
+  - [x] Design: Design a beautiful, immersive hero image section for Explore/Home page
