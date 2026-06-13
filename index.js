@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 const allowedOrigins = ['http://localhost:5173', 'https://frontend-5uo5g2zsv-shahid-raza-s-projects.vercel.app'];
-app.use(cors())({
+app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.indexOf(origin) !== -1 || origin.includes('vercel.app')) {
       callback(null, true);
